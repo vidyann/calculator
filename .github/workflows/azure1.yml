@@ -23,5 +23,5 @@ jobs:
     - name: 'Deploy Azure Web App'
       uses: azure/webapps-deploy@v1
       with: 
-        app-name: calcjs
+        app-name: nodejsappgithub
         publish-profile: ${{ secrets.appprofile}}
